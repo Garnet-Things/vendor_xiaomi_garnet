@@ -1569,7 +1569,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.dsi.ant@1.0",
+	name: "com.dsi.ant@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -3651,7 +3651,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libEGL_adreno",
+	name: "libEGL_adreno.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -3714,7 +3714,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libGLESv2_adreno",
+	name: "libGLESv2_adreno.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -10287,7 +10287,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libq3dtools_adreno",
+	name: "libq3dtools_adreno.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -13185,7 +13185,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libstagefright_bufferpool@2.0.1",
+	name: "libstagefright_bufferpool@2.0.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -15343,7 +15343,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.dolby.hardware.dms@2.0",
+	name: "vendor.dolby.hardware.dms@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26192,7 +26192,7 @@ prebuilt_rfsa {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.internal.deviceinfo@1.0",
+	name: "vendor.qti.hardware.radio.internal.deviceinfo@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26213,7 +26213,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qcrilhook@1.0",
+	name: "vendor.qti.hardware.radio.qcrilhook@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26255,7 +26255,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.bluetooth_audio@1.0",
+	name: "com.qualcomm.qti.bluetooth_audio@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26276,7 +26276,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.dpm.api@1.0",
+	name: "com.qualcomm.qti.dpm.api@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26297,7 +26297,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@2.0",
+	name: "com.qualcomm.qti.imscmservice@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26318,7 +26318,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@2.1",
+	name: "com.qualcomm.qti.imscmservice@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26339,7 +26339,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.imscmservice@2.2",
+	name: "com.qualcomm.qti.imscmservice@2.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26360,7 +26360,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.0",
+	name: "com.qualcomm.qti.uceservice@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26381,7 +26381,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.1",
+	name: "com.qualcomm.qti.uceservice@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26402,7 +26402,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.2",
+	name: "com.qualcomm.qti.uceservice@2.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -26423,7 +26423,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "com.qualcomm.qti.uceservice@2.3",
+	name: "com.qualcomm.qti.uceservice@2.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27306,7 +27306,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.color@1.0",
+	name: "vendor.display.color@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27327,7 +27327,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.color@1.1",
+	name: "vendor.display.color@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27348,7 +27348,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.color@1.2",
+	name: "vendor.display.color@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27369,7 +27369,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.color@1.3",
+	name: "vendor.display.color@1.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27390,7 +27390,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@1.0",
+	name: "vendor.display.config@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27411,7 +27411,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@1.1",
+	name: "vendor.display.config@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27432,7 +27432,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@1.2",
+	name: "vendor.display.config@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27453,7 +27453,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@1.3",
+	name: "vendor.display.config@1.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27474,7 +27474,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@1.4",
+	name: "vendor.display.config@1.4.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27495,7 +27495,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@1.5",
+	name: "vendor.display.config@1.5.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27516,7 +27516,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.config@2.0",
+	name: "vendor.display.config@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27537,7 +27537,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.display.postproc@1.0",
+	name: "vendor.display.postproc@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27600,7 +27600,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.0",
+	name: "vendor.qti.data.factory@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27621,7 +27621,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.1",
+	name: "vendor.qti.data.factory@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27642,7 +27642,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.2",
+	name: "vendor.qti.data.factory@2.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27663,7 +27663,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.3",
+	name: "vendor.qti.data.factory@2.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27684,7 +27684,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.4",
+	name: "vendor.qti.data.factory@2.4.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27705,7 +27705,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.factory@2.5",
+	name: "vendor.qti.data.factory@2.5.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27789,7 +27789,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.mwqem@1.0",
+	name: "vendor.qti.data.mwqem@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27810,7 +27810,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.data.slm@1.0",
+	name: "vendor.qti.data.slm@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27831,7 +27831,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.diaghal@1.0",
+	name: "vendor.qti.diaghal@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27852,7 +27852,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.alarm@1.0",
+	name: "vendor.qti.hardware.alarm@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27873,7 +27873,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.capabilityconfigstore@1.0",
+	name: "vendor.qti.hardware.capabilityconfigstore@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27915,7 +27915,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.api@1.0",
+	name: "vendor.qti.hardware.data.cne.internal.api@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27936,7 +27936,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.constants@1.0",
+	name: "vendor.qti.hardware.data.cne.internal.constants@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27957,7 +27957,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.server@1.0",
+	name: "vendor.qti.hardware.data.cne.internal.server@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27978,7 +27978,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.server@1.1",
+	name: "vendor.qti.hardware.data.cne.internal.server@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -27999,7 +27999,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.cne.internal.server@1.2",
+	name: "vendor.qti.hardware.data.cne.internal.server@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28041,7 +28041,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.connection@1.0",
+	name: "vendor.qti.hardware.data.connection@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28062,7 +28062,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.connection@1.1",
+	name: "vendor.qti.hardware.data.connection@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28125,7 +28125,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.dynamicdds@1.0",
+	name: "vendor.qti.hardware.data.dynamicdds@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28146,7 +28146,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.dynamicdds@1.1",
+	name: "vendor.qti.hardware.data.dynamicdds@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28167,7 +28167,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.flow@1.0",
+	name: "vendor.qti.hardware.data.flow@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28209,7 +28209,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.iwlan@1.0",
+	name: "vendor.qti.hardware.data.iwlan@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28230,7 +28230,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.iwlan@1.1",
+	name: "vendor.qti.hardware.data.iwlan@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28293,7 +28293,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.latency@1.0",
+	name: "vendor.qti.hardware.data.latency@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28314,7 +28314,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.lce@1.0",
+	name: "vendor.qti.hardware.data.lce@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28335,7 +28335,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.data.qmi@1.0",
+	name: "vendor.qti.hardware.data.qmi@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28356,7 +28356,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.display.composer@3.0",
+	name: "vendor.qti.hardware.display.composer@3.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28377,7 +28377,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.display.composer@3.1",
+	name: "vendor.qti.hardware.display.composer@3.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28419,7 +28419,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.dpmservice@1.0",
+	name: "vendor.qti.hardware.dpmservice@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28440,7 +28440,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.dpmservice@1.1",
+	name: "vendor.qti.hardware.dpmservice@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28482,7 +28482,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.fm@1.0",
+	name: "vendor.qti.hardware.fm@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28503,7 +28503,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.iop@2.0",
+	name: "vendor.qti.hardware.iop@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28524,7 +28524,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.limits@1.0",
+	name: "vendor.qti.hardware.limits@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28545,7 +28545,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.limits@1.1",
+	name: "vendor.qti.hardware.limits@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28566,7 +28566,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.mwqemadapter@1.0",
+	name: "vendor.qti.hardware.mwqemadapter@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28587,7 +28587,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.perf@2.0",
+	name: "vendor.qti.hardware.perf@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28608,7 +28608,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.perf@2.1",
+	name: "vendor.qti.hardware.perf@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28629,7 +28629,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.perf@2.2",
+	name: "vendor.qti.hardware.perf@2.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28650,7 +28650,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.perf@2.3",
+	name: "vendor.qti.hardware.perf@2.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28671,7 +28671,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qccsyshal@1.0",
+	name: "vendor.qti.hardware.qccsyshal@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28692,7 +28692,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qccsyshal@1.1",
+	name: "vendor.qti.hardware.qccsyshal@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28755,7 +28755,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qccvndhal@1.0",
+	name: "vendor.qti.hardware.qccvndhal@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28797,7 +28797,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qdutils_disp@1.0",
+	name: "vendor.qti.hardware.qdutils_disp@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28839,7 +28839,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qseecom@1.0",
+	name: "vendor.qti.hardware.qseecom@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28881,7 +28881,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.qteeconnector@1.0",
+	name: "vendor.qti.hardware.qteeconnector@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28902,7 +28902,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.am@1.0",
+	name: "vendor.qti.hardware.radio.am@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28923,7 +28923,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.0",
+	name: "vendor.qti.hardware.radio.ims@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28944,7 +28944,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.1",
+	name: "vendor.qti.hardware.radio.ims@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28965,7 +28965,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.2",
+	name: "vendor.qti.hardware.radio.ims@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -28986,7 +28986,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.3",
+	name: "vendor.qti.hardware.radio.ims@1.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29007,7 +29007,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.4",
+	name: "vendor.qti.hardware.radio.ims@1.4.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29028,7 +29028,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.5",
+	name: "vendor.qti.hardware.radio.ims@1.5.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29049,7 +29049,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.6",
+	name: "vendor.qti.hardware.radio.ims@1.6.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29070,7 +29070,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.7",
+	name: "vendor.qti.hardware.radio.ims@1.7.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29091,7 +29091,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.ims@1.8",
+	name: "vendor.qti.hardware.radio.ims@1.8.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29133,7 +29133,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.lpa@1.0",
+	name: "vendor.qti.hardware.radio.lpa@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29154,7 +29154,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.lpa@1.1",
+	name: "vendor.qti.hardware.radio.lpa@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29175,7 +29175,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.lpa@1.2",
+	name: "vendor.qti.hardware.radio.lpa@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29217,7 +29217,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@1.0",
+	name: "vendor.qti.hardware.radio.qtiradio@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29238,7 +29238,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.0",
+	name: "vendor.qti.hardware.radio.qtiradio@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29259,7 +29259,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.1",
+	name: "vendor.qti.hardware.radio.qtiradio@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29280,7 +29280,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.2",
+	name: "vendor.qti.hardware.radio.qtiradio@2.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29301,7 +29301,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.3",
+	name: "vendor.qti.hardware.radio.qtiradio@2.3.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29322,7 +29322,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.4",
+	name: "vendor.qti.hardware.radio.qtiradio@2.4.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29343,7 +29343,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.5",
+	name: "vendor.qti.hardware.radio.qtiradio@2.5.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29364,7 +29364,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.qtiradio@2.6",
+	name: "vendor.qti.hardware.radio.qtiradio@2.6.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29406,7 +29406,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim@1.0",
+	name: "vendor.qti.hardware.radio.uim@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29427,7 +29427,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim@1.1",
+	name: "vendor.qti.hardware.radio.uim@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29448,7 +29448,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim@1.2",
+	name: "vendor.qti.hardware.radio.uim@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29469,7 +29469,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_client@1.0",
+	name: "vendor.qti.hardware.radio.uim_remote_client@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29490,7 +29490,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_client@1.1",
+	name: "vendor.qti.hardware.radio.uim_remote_client@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29511,7 +29511,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_client@1.2",
+	name: "vendor.qti.hardware.radio.uim_remote_client@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29532,7 +29532,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.radio.uim_remote_server@1.0",
+	name: "vendor.qti.hardware.radio.uim_remote_server@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29595,7 +29595,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.sigma_miracast@1.0",
+	name: "vendor.qti.hardware.sigma_miracast@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29616,7 +29616,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.slmadapter@1.0",
+	name: "vendor.qti.hardware.slmadapter@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29658,7 +29658,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.trustedui@1.0",
+	name: "vendor.qti.hardware.trustedui@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29679,7 +29679,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.vpp@1.1",
+	name: "vendor.qti.hardware.vpp@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29700,7 +29700,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.wifidisplaysession@1.0",
+	name: "vendor.qti.hardware.wifidisplaysession@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29784,7 +29784,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.callcapability@1.0",
+	name: "vendor.qti.ims.callcapability@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29805,7 +29805,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.callinfo@1.0",
+	name: "vendor.qti.ims.callinfo@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29826,7 +29826,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.configservice@1.0",
+	name: "vendor.qti.ims.configservice@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29847,7 +29847,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.configservice@1.1",
+	name: "vendor.qti.ims.configservice@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29868,7 +29868,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.connection@1.0",
+	name: "vendor.qti.ims.connection@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29889,7 +29889,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.0",
+	name: "vendor.qti.ims.factory@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29910,7 +29910,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@1.1",
+	name: "vendor.qti.ims.factory@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29931,7 +29931,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@2.0",
+	name: "vendor.qti.ims.factory@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29952,7 +29952,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@2.1",
+	name: "vendor.qti.ims.factory@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29973,7 +29973,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.factory@2.2",
+	name: "vendor.qti.ims.factory@2.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -29994,7 +29994,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.0",
+	name: "vendor.qti.ims.rcsconfig@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30015,7 +30015,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@1.1",
+	name: "vendor.qti.ims.rcsconfig@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30036,7 +30036,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.0",
+	name: "vendor.qti.ims.rcsconfig@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30057,7 +30057,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsconfig@2.1",
+	name: "vendor.qti.ims.rcsconfig@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30078,7 +30078,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcssip@1.0",
+	name: "vendor.qti.ims.rcssip@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30099,7 +30099,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcssip@1.1",
+	name: "vendor.qti.ims.rcssip@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30120,7 +30120,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcssip@1.2",
+	name: "vendor.qti.ims.rcssip@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30141,7 +30141,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsuce@1.0",
+	name: "vendor.qti.ims.rcsuce@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30162,7 +30162,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsuce@1.1",
+	name: "vendor.qti.ims.rcsuce@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30183,7 +30183,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.ims.rcsuce@1.2",
+	name: "vendor.qti.ims.rcsuce@1.2.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30204,7 +30204,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.imsrtpservice@3.0",
+	name: "vendor.qti.imsrtpservice@3.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30246,7 +30246,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.latency@2.0",
+	name: "vendor.qti.latency@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30267,7 +30267,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.latency@2.1",
+	name: "vendor.qti.latency@2.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30351,7 +30351,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.qesdhal@1.0",
+	name: "vendor.qti.qesdhal@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30372,7 +30372,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.qesdhal@1.1",
+	name: "vendor.qti.qesdhal@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30456,7 +30456,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.qspmhal@1.0",
+	name: "vendor.qti.qspmhal@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30477,7 +30477,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.displayfeature@1.0",
+	name: "vendor.xiaomi.hardware.displayfeature@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30519,7 +30519,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.xiaomi.hardware.fingerprintextension@1.0",
+	name: "vendor.xiaomi.hardware.fingerprintextension@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30540,7 +30540,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.btconfigstore@1.0",
+	name: "vendor.qti.hardware.btconfigstore@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30557,7 +30557,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.btconfigstore@2.0",
+	name: "vendor.qti.hardware.btconfigstore@2.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30574,7 +30574,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.embmssl@1.0",
+	name: "vendor.qti.hardware.embmssl@1.0.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,
@@ -30591,7 +30591,7 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "vendor.qti.hardware.embmssl@1.1",
+	name: "vendor.qti.hardware.embmssl@1.1.vendor",
 	owner: "xiaomi",
 	strip: {
 		none: true,

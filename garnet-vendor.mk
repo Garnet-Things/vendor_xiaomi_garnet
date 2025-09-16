@@ -1566,7 +1566,7 @@ PRODUCT_PACKAGES += \
     camx.provider@2.5-legacy \
     camx.provider@2.6-legacy \
     camx.provider@2.7-legacy \
-    com.dsi.ant@1.0 \
+    com.dsi.ant@1.0.vendor \
     com.qti.settings.clarence \
     com.qti.settings.netrani \
     com.qti.stats.common \
@@ -2116,7 +2116,7 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssccalapi@2.0 \
     libssd \
-    libstagefright_bufferpool@2.0.1 \
+    libstagefright_bufferpool@2.0.1.vendor \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
     libstagefrightdolby \
@@ -2218,7 +2218,7 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.9 \
     vendor.display.config@2.0 \
     vendor.display.postproc@1.0 \
-    vendor.dolby.hardware.dms@2.0 \
+    vendor.dolby.hardware.dms@2.0.vendor \
     vendor.libdpmctmgr \
     vendor.libdpmfdmgr \
     vendor.libdpmframework \
@@ -2826,18 +2826,18 @@ PRODUCT_PACKAGES += \
     misound_res_spk \
     misound_res_spk4ch \
     misound_res_spk_fs \
-    vendor.qti.hardware.radio.internal.deviceinfo@1.0 \
-    vendor.qti.hardware.radio.qcrilhook@1.0 \
+    vendor.qti.hardware.radio.internal.deviceinfo@1.0.vendor \
+    vendor.qti.hardware.radio.qcrilhook@1.0.vendor \
     com.qualcomm.qti.ant@1.0 \
-    com.qualcomm.qti.bluetooth_audio@1.0 \
-    com.qualcomm.qti.dpm.api@1.0 \
-    com.qualcomm.qti.imscmservice@2.0 \
-    com.qualcomm.qti.imscmservice@2.1 \
-    com.qualcomm.qti.imscmservice@2.2 \
-    com.qualcomm.qti.uceservice@2.0 \
-    com.qualcomm.qti.uceservice@2.1 \
-    com.qualcomm.qti.uceservice@2.2 \
-    com.qualcomm.qti.uceservice@2.3 \
+    com.qualcomm.qti.bluetooth_audio@1.0.vendor \
+    com.qualcomm.qti.dpm.api@1.0.vendor \
+    com.qualcomm.qti.imscmservice@2.0.vendor \
+    com.qualcomm.qti.imscmservice@2.1.vendor \
+    com.qualcomm.qti.imscmservice@2.2.vendor \
+    com.qualcomm.qti.uceservice@2.0.vendor \
+    com.qualcomm.qti.uceservice@2.1.vendor \
+    com.qualcomm.qti.uceservice@2.2.vendor \
+    com.qualcomm.qti.uceservice@2.3.vendor \
     com.quicinc.cne.api@1.0 \
     com.quicinc.cne.api@1.1 \
     com.quicinc.cne.constants@1.0 \
@@ -2879,164 +2879,164 @@ PRODUCT_PACKAGES += \
     libwfduibcsinkinterface \
     libwfduibcsrc \
     libwfduibcsrcinterface \
-    vendor.display.color@1.0 \
-    vendor.display.color@1.1 \
-    vendor.display.color@1.2 \
-    vendor.display.color@1.3 \
-    vendor.display.config@1.0 \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.2 \
-    vendor.display.config@1.3 \
-    vendor.display.config@1.4 \
-    vendor.display.config@1.5 \
-    vendor.display.config@2.0 \
-    vendor.display.postproc@1.0 \
+    vendor.display.color@1.0.vendor \
+    vendor.display.color@1.1.vendor \
+    vendor.display.color@1.2.vendor \
+    vendor.display.color@1.3.vendor \
+    vendor.display.config@1.0.vendor \
+    vendor.display.config@1.1.vendor \
+    vendor.display.config@1.2.vendor \
+    vendor.display.config@1.3.vendor \
+    vendor.display.config@1.4.vendor \
+    vendor.display.config@1.5.vendor \
+    vendor.display.config@2.0.vendor \
+    vendor.display.postproc@1.0.vendor \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.data.factory@1.0 \
-    vendor.qti.data.factory@2.0 \
-    vendor.qti.data.factory@2.1 \
-    vendor.qti.data.factory@2.2 \
-    vendor.qti.data.factory@2.3 \
-    vendor.qti.data.factory@2.4 \
-    vendor.qti.data.factory@2.5 \
+    vendor.qti.data.factory@2.0.vendor \
+    vendor.qti.data.factory@2.1.vendor \
+    vendor.qti.data.factory@2.2.vendor \
+    vendor.qti.data.factory@2.3.vendor \
+    vendor.qti.data.factory@2.4.vendor \
+    vendor.qti.data.factory@2.5.vendor \
     vendor.qti.data.factory@2.6 \
     vendor.qti.data.factory@2.7 \
     vendor.qti.data.factory@2.8 \
-    vendor.qti.data.mwqem@1.0 \
-    vendor.qti.data.slm@1.0 \
-    vendor.qti.diaghal@1.0 \
-    vendor.qti.hardware.alarm@1.0 \
-    vendor.qti.hardware.capabilityconfigstore@1.0 \
+    vendor.qti.data.mwqem@1.0.vendor \
+    vendor.qti.data.slm@1.0.vendor \
+    vendor.qti.diaghal@1.0.vendor \
+    vendor.qti.hardware.alarm@1.0.vendor \
+    vendor.qti.hardware.capabilityconfigstore@1.0.vendor \
     vendor.qti.hardware.cvp@1.0 \
-    vendor.qti.hardware.data.cne.internal.api@1.0 \
-    vendor.qti.hardware.data.cne.internal.constants@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.0 \
-    vendor.qti.hardware.data.cne.internal.server@1.1 \
-    vendor.qti.hardware.data.cne.internal.server@1.2 \
+    vendor.qti.hardware.data.cne.internal.api@1.0.vendor \
+    vendor.qti.hardware.data.cne.internal.constants@1.0.vendor \
+    vendor.qti.hardware.data.cne.internal.server@1.0.vendor \
+    vendor.qti.hardware.data.cne.internal.server@1.1.vendor \
+    vendor.qti.hardware.data.cne.internal.server@1.2.vendor \
     vendor.qti.hardware.data.cne.internal.server@1.3 \
-    vendor.qti.hardware.data.connection@1.0 \
-    vendor.qti.hardware.data.connection@1.1 \
+    vendor.qti.hardware.data.connection@1.0.vendor \
+    vendor.qti.hardware.data.connection@1.1.vendor \
     vendor.qti.hardware.data.connectionfactory-V1-ndk \
     vendor.qti.hardware.data.dataactivity-V1-ndk \
-    vendor.qti.hardware.data.dynamicdds@1.0 \
-    vendor.qti.hardware.data.dynamicdds@1.1 \
-    vendor.qti.hardware.data.flow@1.0 \
+    vendor.qti.hardware.data.dynamicdds@1.0.vendor \
+    vendor.qti.hardware.data.dynamicdds@1.1.vendor \
+    vendor.qti.hardware.data.flow@1.0.vendor \
     vendor.qti.hardware.data.flow@1.1 \
-    vendor.qti.hardware.data.iwlan@1.0 \
-    vendor.qti.hardware.data.iwlan@1.1 \
+    vendor.qti.hardware.data.iwlan@1.0.vendor \
+    vendor.qti.hardware.data.iwlan@1.1.vendor \
     vendor.qti.hardware.data.iwlandata-V1-ndk \
     vendor.qti.hardware.data.ka-V1-ndk \
-    vendor.qti.hardware.data.latency@1.0 \
-    vendor.qti.hardware.data.lce@1.0 \
-    vendor.qti.hardware.data.qmi@1.0 \
-    vendor.qti.hardware.display.composer@3.0 \
-    vendor.qti.hardware.display.composer@3.1 \
+    vendor.qti.hardware.data.latency@1.0.vendor \
+    vendor.qti.hardware.data.lce@1.0.vendor \
+    vendor.qti.hardware.data.qmi@1.0.vendor \
+    vendor.qti.hardware.display.composer@3.0.vendor \
+    vendor.qti.hardware.display.composer@3.1.vendor \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
-    vendor.qti.hardware.dpmservice@1.0 \
-    vendor.qti.hardware.dpmservice@1.1 \
+    vendor.qti.hardware.dpmservice@1.0.vendor \
+    vendor.qti.hardware.dpmservice@1.1.vendor \
     vendor.qti.hardware.fingerprint@1.0 \
-    vendor.qti.hardware.fm@1.0 \
-    vendor.qti.hardware.iop@2.0 \
-    vendor.qti.hardware.limits@1.0 \
-    vendor.qti.hardware.limits@1.1 \
-    vendor.qti.hardware.mwqemadapter@1.0 \
-    vendor.qti.hardware.perf@2.0 \
-    vendor.qti.hardware.perf@2.1 \
-    vendor.qti.hardware.perf@2.2 \
-    vendor.qti.hardware.perf@2.3 \
-    vendor.qti.hardware.qccsyshal@1.0 \
-    vendor.qti.hardware.qccsyshal@1.1 \
+    vendor.qti.hardware.fm@1.0.vendor \
+    vendor.qti.hardware.iop@2.0.vendor \
+    vendor.qti.hardware.limits@1.0.vendor \
+    vendor.qti.hardware.limits@1.1.vendor \
+    vendor.qti.hardware.mwqemadapter@1.0.vendor \
+    vendor.qti.hardware.perf@2.0.vendor \
+    vendor.qti.hardware.perf@2.1.vendor \
+    vendor.qti.hardware.perf@2.2.vendor \
+    vendor.qti.hardware.perf@2.3.vendor \
+    vendor.qti.hardware.qccsyshal@1.0.vendor \
+    vendor.qti.hardware.qccsyshal@1.1.vendor \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
     vendor.qti.hardware.qccsyshal@1.2 \
-    vendor.qti.hardware.qccvndhal@1.0 \
+    vendor.qti.hardware.qccvndhal@1.0.vendor \
     vendor.qti.hardware.qconfig-V3-ndk \
-    vendor.qti.hardware.qdutils_disp@1.0 \
+    vendor.qti.hardware.qdutils_disp@1.0.vendor \
     vendor.qti.hardware.qseecom-V1-ndk \
-    vendor.qti.hardware.qseecom@1.0 \
+    vendor.qti.hardware.qseecom@1.0.vendor \
     vendor.qti.hardware.qteeconnector-V1-ndk \
-    vendor.qti.hardware.qteeconnector@1.0 \
-    vendor.qti.hardware.radio.am@1.0 \
-    vendor.qti.hardware.radio.ims@1.0 \
-    vendor.qti.hardware.radio.ims@1.1 \
-    vendor.qti.hardware.radio.ims@1.2 \
-    vendor.qti.hardware.radio.ims@1.3 \
-    vendor.qti.hardware.radio.ims@1.4 \
-    vendor.qti.hardware.radio.ims@1.5 \
-    vendor.qti.hardware.radio.ims@1.6 \
-    vendor.qti.hardware.radio.ims@1.7 \
-    vendor.qti.hardware.radio.ims@1.8 \
+    vendor.qti.hardware.qteeconnector@1.0.vendor \
+    vendor.qti.hardware.radio.am@1.0.vendor \
+    vendor.qti.hardware.radio.ims@1.0.vendor \
+    vendor.qti.hardware.radio.ims@1.1.vendor \
+    vendor.qti.hardware.radio.ims@1.2.vendor \
+    vendor.qti.hardware.radio.ims@1.3.vendor \
+    vendor.qti.hardware.radio.ims@1.4.vendor \
+    vendor.qti.hardware.radio.ims@1.5.vendor \
+    vendor.qti.hardware.radio.ims@1.6.vendor \
+    vendor.qti.hardware.radio.ims@1.7.vendor \
+    vendor.qti.hardware.radio.ims@1.8.vendor \
     vendor.qti.hardware.radio.ims@1.9 \
-    vendor.qti.hardware.radio.lpa@1.0 \
-    vendor.qti.hardware.radio.lpa@1.1 \
-    vendor.qti.hardware.radio.lpa@1.2 \
+    vendor.qti.hardware.radio.lpa@1.0.vendor \
+    vendor.qti.hardware.radio.lpa@1.1.vendor \
+    vendor.qti.hardware.radio.lpa@1.2.vendor \
     vendor.qti.hardware.radio.lpa@1.3 \
-    vendor.qti.hardware.radio.qtiradio@1.0 \
-    vendor.qti.hardware.radio.qtiradio@2.0 \
-    vendor.qti.hardware.radio.qtiradio@2.1 \
-    vendor.qti.hardware.radio.qtiradio@2.2 \
-    vendor.qti.hardware.radio.qtiradio@2.3 \
-    vendor.qti.hardware.radio.qtiradio@2.4 \
-    vendor.qti.hardware.radio.qtiradio@2.5 \
-    vendor.qti.hardware.radio.qtiradio@2.6 \
+    vendor.qti.hardware.radio.qtiradio@1.0.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.0.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.1.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.2.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.3.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.4.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.5.vendor \
+    vendor.qti.hardware.radio.qtiradio@2.6.vendor \
     vendor.qti.hardware.radio.qtiradio@2.7 \
-    vendor.qti.hardware.radio.uim@1.0 \
-    vendor.qti.hardware.radio.uim@1.1 \
-    vendor.qti.hardware.radio.uim@1.2 \
-    vendor.qti.hardware.radio.uim_remote_client@1.0 \
-    vendor.qti.hardware.radio.uim_remote_client@1.1 \
-    vendor.qti.hardware.radio.uim_remote_client@1.2 \
-    vendor.qti.hardware.radio.uim_remote_server@1.0 \
+    vendor.qti.hardware.radio.uim@1.0.vendor \
+    vendor.qti.hardware.radio.uim@1.1.vendor \
+    vendor.qti.hardware.radio.uim@1.2.vendor \
+    vendor.qti.hardware.radio.uim_remote_client@1.0.vendor \
+    vendor.qti.hardware.radio.uim_remote_client@1.1.vendor \
+    vendor.qti.hardware.radio.uim_remote_client@1.2.vendor \
+    vendor.qti.hardware.radio.uim_remote_server@1.0.vendor \
     vendor.qti.hardware.seccam@1.0 \
     vendor.qti.hardware.sigma_miracast@1.0-halimpl \
-    vendor.qti.hardware.sigma_miracast@1.0 \
-    vendor.qti.hardware.slmadapter@1.0 \
+    vendor.qti.hardware.sigma_miracast@1.0.vendor \
+    vendor.qti.hardware.slmadapter@1.0.vendor \
     vendor.qti.hardware.trustedui-V1-ndk \
-    vendor.qti.hardware.trustedui@1.0 \
-    vendor.qti.hardware.vpp@1.1 \
-    vendor.qti.hardware.wifidisplaysession@1.0 \
+    vendor.qti.hardware.trustedui@1.0.vendor \
+    vendor.qti.hardware.vpp@1.1.vendor \
+    vendor.qti.hardware.wifidisplaysession@1.0.vendor \
     vendor.qti.hardware.wifidisplaysession_aidl-V1-ndk \
     vendor.qti.hardware.wigig.netperftuner@1.0 \
     vendor.qti.hardware.wigig.supptunnel@1.0 \
-    vendor.qti.ims.callcapability@1.0 \
-    vendor.qti.ims.callinfo@1.0 \
-    vendor.qti.ims.configservice@1.0 \
-    vendor.qti.ims.configservice@1.1 \
-    vendor.qti.ims.connection@1.0 \
-    vendor.qti.ims.factory@1.0 \
-    vendor.qti.ims.factory@1.1 \
-    vendor.qti.ims.factory@2.0 \
-    vendor.qti.ims.factory@2.1 \
-    vendor.qti.ims.factory@2.2 \
-    vendor.qti.ims.rcsconfig@1.0 \
-    vendor.qti.ims.rcsconfig@1.1 \
-    vendor.qti.ims.rcsconfig@2.0 \
-    vendor.qti.ims.rcsconfig@2.1 \
-    vendor.qti.ims.rcssip@1.0 \
-    vendor.qti.ims.rcssip@1.1 \
-    vendor.qti.ims.rcssip@1.2 \
-    vendor.qti.ims.rcsuce@1.0 \
-    vendor.qti.ims.rcsuce@1.1 \
-    vendor.qti.ims.rcsuce@1.2 \
-    vendor.qti.imsrtpservice@3.0 \
+    vendor.qti.ims.callcapability@1.0.vendor \
+    vendor.qti.ims.callinfo@1.0.vendor \
+    vendor.qti.ims.configservice@1.0.vendor \
+    vendor.qti.ims.configservice@1.1.vendor \
+    vendor.qti.ims.connection@1.0.vendor \
+    vendor.qti.ims.factory@1.0.vendor \
+    vendor.qti.ims.factory@1.1.vendor \
+    vendor.qti.ims.factory@2.0.vendor \
+    vendor.qti.ims.factory@2.1.vendor \
+    vendor.qti.ims.factory@2.2.vendor \
+    vendor.qti.ims.rcsconfig@1.0.vendor \
+    vendor.qti.ims.rcsconfig@1.1.vendor \
+    vendor.qti.ims.rcsconfig@2.0.vendor \
+    vendor.qti.ims.rcsconfig@2.1.vendor \
+    vendor.qti.ims.rcssip@1.0.vendor \
+    vendor.qti.ims.rcssip@1.1.vendor \
+    vendor.qti.ims.rcssip@1.2.vendor \
+    vendor.qti.ims.rcsuce@1.0.vendor \
+    vendor.qti.ims.rcsuce@1.1.vendor \
+    vendor.qti.ims.rcsuce@1.2.vendor \
+    vendor.qti.imsrtpservice@3.0.vendor \
     vendor.qti.imsrtpservice@3.1 \
-    vendor.qti.latency@2.0 \
-    vendor.qti.latency@2.1 \
+    vendor.qti.latency@2.0.vendor \
+    vendor.qti.latency@2.1.vendor \
     vendor.qti.latency@2.2 \
     vendor.qti.latency@2.3 \
     vendor.qti.qccvndhal_aidl-V1-ndk \
-    vendor.qti.qesdhal@1.0 \
-    vendor.qti.qesdhal@1.1 \
+    vendor.qti.qesdhal@1.0.vendor \
+    vendor.qti.qesdhal@1.1.vendor \
     vendor.qti.qesdhal@1.2 \
     vendor.qti.qesdhalaidl-V2-ndk \
     vendor.qti.qspmhal-V1-ndk \
-    vendor.qti.qspmhal@1.0 \
-    vendor.xiaomi.hardware.displayfeature@1.0 \
+    vendor.qti.qspmhal@1.0.vendor \
+    vendor.xiaomi.hardware.displayfeature@1.0.vendor \
     vendor.xiaomi.hardware.fingerprintextension-V1-ndk \
-    vendor.xiaomi.hardware.fingerprintextension@1.0 \
-    vendor.qti.hardware.btconfigstore@1.0 \
-    vendor.qti.hardware.btconfigstore@2.0 \
-    vendor.qti.hardware.embmssl@1.0 \
-    vendor.qti.hardware.embmssl@1.1 \
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
+    vendor.qti.hardware.btconfigstore@1.0.vendor \
+    vendor.qti.hardware.btconfigstore@2.0.vendor \
+    vendor.qti.hardware.embmssl@1.0.vendor \
+    vendor.qti.hardware.embmssl@1.1.vendor \
     vendor.qti.hardware.embmsslaidl-V2-ndk \
     vendor.qti.hardware.qxr-V1-ndk_platform \
     fingerprint.fpc_fod \
