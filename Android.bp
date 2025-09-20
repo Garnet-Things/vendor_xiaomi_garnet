@@ -73,6 +73,9 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	apex_available: [
+        "com.android.media.swcodec",
+    ],
 	target: {
         android_arm: {
 			srcs: ["proprietary/lib/libstagefright_aidl_bufferpool2.so"],
@@ -93,6 +96,9 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	apex_available: [
+        "com.android.media.swcodec",
+    ],
 	target: {
         android_arm: {
 			srcs: ["proprietary/lib/libstagefright_bufferpool@2.0.1.so"],
@@ -6490,6 +6496,9 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	apex_available: [
+        "com.android.media.swcodec",
+    ],
 	target: {
         android_arm: {
 			srcs: ["proprietary/vendor/lib/libcodec2_soft_common.so"],
@@ -12661,6 +12670,9 @@ cc_prebuilt_library_shared {
 	strip: {
 		none: true,
 	},
+	apex_available: [
+        "com.android.media.swcodec",
+    ],
 	target: {
         android_arm: {
 			srcs: ["proprietary/vendor/lib/libsfplugin_ccodec_utils.so"],
