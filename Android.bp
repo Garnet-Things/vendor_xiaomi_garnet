@@ -31073,15 +31073,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.health@2.1.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.health@2.1.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.security.keymint-service-qti-rkp.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.security.keymint-service-qti-rkp.xml",
@@ -32172,15 +32163,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.ir@1.0-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/hw/android.hardware.ir@1.0-service",
-	filename: "android.hardware.ir@1.0-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.keymaster@4.0-service-qti",
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti",
@@ -32221,15 +32203,6 @@ sh_binary {
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/hw/android.hardware.security.keymint-service-qti",
 	filename: "android.hardware.security.keymint-service-qti",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.sensors@2.1-service.multihal",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/hw/android.hardware.sensors@2.1-service.multihal",
-	filename: "android.hardware.sensors@2.1-service.multihal",
 	sub_dir: "hw",
 	soc_specific: true,
 }
