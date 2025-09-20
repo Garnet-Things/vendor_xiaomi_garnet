@@ -31028,15 +31028,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.boot@1.2.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.cas@1.2-service.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.2-service.xml",
@@ -32118,15 +32109,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "android.hardware.boot@1.2-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/hw/android.hardware.boot@1.2-service",
-	filename: "android.hardware.boot@1.2-service",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "android.hardware.camera.provider@2.7-virtual-camera-service",
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/hw/android.hardware.camera.provider@2.7-virtual-camera-service",
@@ -32185,15 +32167,6 @@ sh_binary {
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/hw/android.hardware.gnss-aidl-service-qti",
 	filename: "android.hardware.gnss-aidl-service-qti",
-	sub_dir: "hw",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.health@2.1-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/hw/android.hardware.health@2.1-service",
-	filename: "android.hardware.health@2.1-service",
 	sub_dir: "hw",
 	soc_specific: true,
 }

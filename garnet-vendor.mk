@@ -611,7 +611,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.audio.service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service_64.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-virtual-camera-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-virtual-camera-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
@@ -620,7 +619,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.ir@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
@@ -3064,7 +3062,6 @@ PRODUCT_PACKAGES += \
     OpticalTestTool \
     goodix_sz \
     AHBF@2.1-service.xml \
-    android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service.xiaomi.xml \
     android.hardware.gnss-aidl-service-qti.xml \
@@ -3192,7 +3189,6 @@ PRODUCT_PACKAGES += \
     hostapd_cli \
     android.hardware.audio.service_64 \
     android.hardware.bluetooth@1.0-service-qti \
-    android.hardware.boot@1.2-service \
     android.hardware.camera.provider@2.7-virtual-camera-service \
     android.hardware.cas@1.2-service \
     android.hardware.drm@1.4-service.clearkey \
@@ -3200,7 +3196,6 @@ PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.1-service.xiaomi \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss-aidl-service-qti \
-    android.hardware.health@2.1-service \
     android.hardware.ir@1.0-service \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.keymaster@4.1-service-qti \
