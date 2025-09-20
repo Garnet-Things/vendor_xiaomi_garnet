@@ -31028,15 +31028,6 @@ prebuilt_etc_xml {
 }
 
 prebuilt_etc_xml {
-	name: "android.hardware.atrace@1.0-service.xml",
-	owner: "xiaomi",
-	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml",
-	filename_from_src: true,
-	sub_dir: "vintf/manifest",
-	soc_specific: true,
-}
-
-prebuilt_etc_xml {
 	name: "android.hardware.boot@1.2.xml",
 	owner: "xiaomi",
 	src: "proprietary/vendor/etc/vintf/manifest/android.hardware.boot@1.2.xml",
@@ -31797,22 +31788,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "boringssl_self_test32",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/boringssl_self_test32",
-	filename: "boringssl_self_test32",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "boringssl_self_test64",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/boringssl_self_test64",
-	filename: "boringssl_self_test64",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "btconfig",
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/btconfig",
@@ -31989,14 +31964,6 @@ sh_binary {
 }
 
 sh_binary {
-	name: "dumpsys",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/dumpsys",
-	filename: "dumpsys",
-	soc_specific: true,
-}
-
-sh_binary {
 	name: "e_loop",
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/e_loop",
@@ -32129,15 +32096,6 @@ sh_binary {
 	owner: "xiaomi",
 	src: "proprietary/vendor/bin/hostapd_cli",
 	filename: "hostapd_cli",
-	soc_specific: true,
-}
-
-sh_binary {
-	name: "android.hardware.atrace@1.0-service",
-	owner: "xiaomi",
-	src: "proprietary/vendor/bin/hw/android.hardware.atrace@1.0-service",
-	filename: "android.hardware.atrace@1.0-service",
-	sub_dir: "hw",
 	soc_specific: true,
 }
 

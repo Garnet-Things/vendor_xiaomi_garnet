@@ -609,7 +609,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/gps_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gps_diag.cfg \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.audio.service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service_64.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
@@ -3065,7 +3064,6 @@ PRODUCT_PACKAGES += \
     OpticalTestTool \
     goodix_sz \
     AHBF@2.1-service.xml \
-    android.hardware.atrace@1.0-service.xml \
     android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service.xiaomi.xml \
@@ -3153,8 +3151,6 @@ PRODUCT_PACKAGES += \
     audioflacapp \
     aw_ar_get_te \
     batterysecret \
-    boringssl_self_test32 \
-    boringssl_self_test64 \
     btconfig \
     cdsprpcd \
     charge_logger \
@@ -3177,7 +3173,6 @@ PRODUCT_PACKAGES += \
     displayfeature \
     dpmQmiMgr \
     dspservice \
-    dumpsys \
     e_loop \
     edgnss-daemon \
     embmsslServer \
@@ -3195,7 +3190,6 @@ PRODUCT_PACKAGES += \
     hdcp1prov \
     hdcp2p2prov \
     hostapd_cli \
-    android.hardware.atrace@1.0-service \
     android.hardware.audio.service_64 \
     android.hardware.bluetooth@1.0-service-qti \
     android.hardware.boot@1.2-service \
