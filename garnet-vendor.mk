@@ -609,10 +609,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/gps_diag.cfg:$(TARGET_COPY_OUT_VENDOR)/etc/gps_diag.cfg \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init.panel_info.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.panel_info.sh \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init.qti.fm.sh:$(TARGET_COPY_OUT_VENDOR)/etc/init.qti.fm.sh \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.audio.service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.audio.service_64.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.boot@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.boot@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.camera.provider@2.7-virtual-camera-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.camera.provider@2.7-virtual-camera-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.cas@1.2-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.cas@1.2-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc \
@@ -621,8 +619,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.dumpstate@1.1-service.xiaomi.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss-aidl-service-qti.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.health@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.health@2.1-service.rc \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.ir@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.ir@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@4.1-service-qti.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.media.omx@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.media.omx@1.0-service.rc \
     vendor/xiaomi/garnet/proprietary/vendor/etc/init/android.hardware.power-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.power-service.rc \
@@ -1099,8 +1095,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/wifi/qca6490/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6490/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/garnet/proprietary/vendor/etc/wifi/qca6750/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/qca6750/WCNSS_qcom_cfg.ini \
     vendor/xiaomi/garnet/proprietary/vendor/etc/wifi/vendor_cmd.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/vendor_cmd.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     vendor/xiaomi/garnet/proprietary/vendor/etc/xiaomi_ecc_list.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/xiaomi_ecc_list_preference.xml:$(TARGET_COPY_OUT_VENDOR)/etc/xiaomi_ecc_list_preference.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
@@ -1566,7 +1560,6 @@ PRODUCT_PACKAGES += \
     camx.provider@2.5-legacy \
     camx.provider@2.6-legacy \
     camx.provider@2.7-legacy \
-    com.dsi.ant@1.0.vendor \
     com.qti.settings.clarence \
     com.qti.settings.netrani \
     com.qti.stats.common \
@@ -2116,7 +2109,6 @@ PRODUCT_PACKAGES += \
     libssc_default_listener \
     libssccalapi@2.0 \
     libssd \
-    libstagefright_bufferpool@2.0.1.vendor \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
     libstagefrightdolby \
@@ -2144,7 +2136,6 @@ PRODUCT_PACKAGES += \
     libubifocus \
     libultrasound_notify \
     libvendorscenariopoweroptfeature \
-    libvibrator \
     libvideoml \
     libvideomode \
     libvideooptfeature \
@@ -2883,13 +2874,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.1.vendor \
     vendor.display.color@1.2.vendor \
     vendor.display.color@1.3.vendor \
-    vendor.display.config@1.0.vendor \
-    vendor.display.config@1.1.vendor \
-    vendor.display.config@1.2.vendor \
-    vendor.display.config@1.3.vendor \
-    vendor.display.config@1.4.vendor \
-    vendor.display.config@1.5.vendor \
-    vendor.display.config@2.0.vendor \
     vendor.display.postproc@1.0.vendor \
     vendor.qti.ImsRtpService-V1-ndk \
     vendor.qti.data.factory@1.0 \
@@ -2906,7 +2890,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.data.slm@1.0.vendor \
     vendor.qti.diaghal@1.0.vendor \
     vendor.qti.hardware.alarm@1.0.vendor \
-    vendor.qti.hardware.capabilityconfigstore@1.0.vendor \
     vendor.qti.hardware.cvp@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0.vendor \
     vendor.qti.hardware.data.cne.internal.constants@1.0.vendor \
@@ -2929,8 +2912,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.data.latency@1.0.vendor \
     vendor.qti.hardware.data.lce@1.0.vendor \
     vendor.qti.hardware.data.qmi@1.0.vendor \
-    vendor.qti.hardware.display.composer@3.0.vendor \
-    vendor.qti.hardware.display.composer@3.1.vendor \
     vendor.qti.hardware.dpmaidlservice-V1-ndk \
     vendor.qti.hardware.dpmservice@1.0.vendor \
     vendor.qti.hardware.dpmservice@1.1.vendor \
@@ -2940,10 +2921,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.limits@1.0.vendor \
     vendor.qti.hardware.limits@1.1.vendor \
     vendor.qti.hardware.mwqemadapter@1.0.vendor \
-    vendor.qti.hardware.perf@2.0.vendor \
-    vendor.qti.hardware.perf@2.1.vendor \
-    vendor.qti.hardware.perf@2.2.vendor \
-    vendor.qti.hardware.perf@2.3.vendor \
     vendor.qti.hardware.qccsyshal@1.0.vendor \
     vendor.qti.hardware.qccsyshal@1.1.vendor \
     vendor.qti.hardware.qccsyshal@1.2-halimpl \
@@ -3033,8 +3010,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.displayfeature@1.0.vendor \
     vendor.xiaomi.hardware.fingerprintextension-V1-ndk \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@2.0.vendor \
     vendor.qti.hardware.embmssl@1.0.vendor \
     vendor.qti.hardware.embmssl@1.1.vendor \
     vendor.qti.hardware.embmsslaidl-V2-ndk \
@@ -3065,20 +3040,15 @@ PRODUCT_PACKAGES += \
     OpticalTestTool \
     goodix_sz \
     AHBF@2.1-service.xml \
-    android.hardware.atrace@1.0-service.xml \
-    android.hardware.boot@1.2.xml \
     android.hardware.cas@1.2-service.xml \
     android.hardware.dumpstate@1.1-service.xiaomi.xml \
     android.hardware.gnss-aidl-service-qti.xml \
     android.hardware.gnss@2.1-service-qti.xml \
     android.hardware.graphics.mapper-impl-qti-display.xml \
-    android.hardware.health@2.1.xml \
     android.hardware.security.keymint-service-qti-rkp.xml \
     android.hardware.sensors@2.1-multihal.xml \
     android.hardware.thermal@2.0-service.qti.xml \
     android.hardware.usb@1.2-service.xml \
-    android.hardware.wifi.hostapd.xml \
-    android.hardware.wifi.supplicant.xml \
     android.hardware.wifi@1.0-service.xml \
     c2_manifest_vendor.xml \
     c2_manifest_vendor_audio.xml \
@@ -3146,24 +3116,19 @@ PRODUCT_PACKAGES += \
     agmcap \
     agmcompressplay \
     agmplay \
-    applypatch \
     athdiag \
     audio-factory-test \
     audioadsprpcd \
     audioflacapp \
     aw_ar_get_te \
     batterysecret \
-    boringssl_self_test32 \
-    boringssl_self_test64 \
     btconfig \
     cdsprpcd \
     charge_logger \
-    checkpoint_gc \
     cnd \
     cnss-daemon \
     cnss_diag \
     color \
-    cplay \
     ctrlapp_dut \
     debug-diag \
     diag-router \
@@ -3177,7 +3142,6 @@ PRODUCT_PACKAGES += \
     displayfeature \
     dpmQmiMgr \
     dspservice \
-    dumpsys \
     e_loop \
     edgnss-daemon \
     embmsslServer \
@@ -3195,10 +3159,8 @@ PRODUCT_PACKAGES += \
     hdcp1prov \
     hdcp2p2prov \
     hostapd_cli \
-    android.hardware.atrace@1.0-service \
     android.hardware.audio.service_64 \
     android.hardware.bluetooth@1.0-service-qti \
-    android.hardware.boot@1.2-service \
     android.hardware.camera.provider@2.7-virtual-camera-service \
     android.hardware.cas@1.2-service \
     android.hardware.drm@1.4-service.clearkey \
@@ -3206,14 +3168,11 @@ PRODUCT_PACKAGES += \
     android.hardware.dumpstate@1.1-service.xiaomi \
     android.hardware.gatekeeper@1.0-service-qti \
     android.hardware.gnss-aidl-service-qti \
-    android.hardware.health@2.1-service \
-    android.hardware.ir@1.0-service \
     android.hardware.keymaster@4.0-service-qti \
     android.hardware.keymaster@4.1-service-qti \
     android.hardware.media.omx@1.0-service \
     android.hardware.power-service \
     android.hardware.security.keymint-service-qti \
-    android.hardware.sensors@2.1-service.multihal \
     android.hardware.thermal@2.0-service.qti-v2 \
     android.hardware.usb@1.2-service-qti \
     android.hardware.wifi@1.0-service \
@@ -3235,7 +3194,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.iop@2.0-service \
     vendor.qti.hardware.lights.service \
     vendor.qti.hardware.limits@1.1-service \
-    vendor.qti.hardware.memtrack-service \
     vendor.qti.hardware.perf-hal-service \
     vendor.qti.hardware.qseecom@1.0-service \
     vendor.qti.hardware.qteeconnector@1.0-service \
@@ -3268,7 +3226,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hw.touchfeature@1.0-service \
     vendor.xiaomi.sensor.citsensorservice@2.0-service \
     vendor.xiaomi.sensor.communicate@1.0-service \
-    wpa_supplicant \
     hwinfo \
     ims_rtp_daemon \
     imsdaemon \
@@ -3278,7 +3235,6 @@ PRODUCT_PACKAGES += \
     iperf3.zc \
     iperf3_v \
     irsc_util \
-    iw \
     iwconfig \
     iwlist \
     iwpriv \
@@ -3304,7 +3260,6 @@ PRODUCT_PACKAGES += \
     mtd@1.3 \
     myftm \
     netmgrd \
-    nqnfcinfo \
     nv_mac \
     pd-mapper \
     perf_qesdk_client \
@@ -3357,8 +3312,6 @@ PRODUCT_PACKAGES += \
     ssr_diag \
     ssr_setup \
     subsystem_ramdump \
-    tcpdump \
-    test-nusensors \
     test_diag \
     tftp_server \
     thermal-engine-v2 \
@@ -3381,7 +3334,6 @@ PRODUCT_PACKAGES += \
     wifidisplayhalservice \
     wifilearner \
     wlanramdumpcollector \
-    wpa_cli \
     xiaomi_cellinfo_test \
     xiaomi_extend_cmd \
     xiaomi_ir_test \
