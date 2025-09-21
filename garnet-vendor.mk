@@ -1445,41 +1445,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigpreviewlite.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideo.bin \
     vendor/xiaomi/garnet/proprietary/vendor/lib/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib/camera/fdconfigvideolite.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_aac_ov64b40_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_imx355_ultra_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov02b10_macro_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_ov16a1q_front_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5k3p9sp04_front_iiii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_ofilm_s5khp3_wide_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_sunny_imx355_ultra_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_sunny_ov16a1q_front_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_sunny_s5k3p9sp04_front_iii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.sensormodule.garnet_sunny_s5khp3_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.default.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.default.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_aac_ov64b40_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_imx355_ultra_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_ov02b10_macro_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_ov16a1q_front_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_s5k3p9sp04_front_iiii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_global_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_ofilm_s5khp3_wide_ii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_imx355_ultra_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_ov02b10_macro_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_ov16a1q_front_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_s5k3p9sp04_front_iii.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_global_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.qti.tuned.garnet_sunny_s5khp3_wide_i.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigpreview.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreview.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigpreviewlite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigpreviewlite.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
-    vendor/xiaomi/garnet/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/XIG05_build.prop:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/XIG05_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnet_build.prop:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/garnet_build.prop \
     vendor/xiaomi/garnet/proprietary/vendor_dlkm/etc/garnetp_build.prop:$(TARGET_COPY_OUT_VENDOR_DLKM)/etc/garnetp_build.prop
