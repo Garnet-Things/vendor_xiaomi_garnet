@@ -59,27 +59,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/odm/etc/me_config.xml:$(TARGET_COPY_OUT_ODM)/etc/me_config.xml \
     vendor/xiaomi/garnet/proprietary/odm/etc/setting.xml:$(TARGET_COPY_OUT_ODM)/etc/setting.xml \
     vendor/xiaomi/garnet/proprietary/odm/etc/ueventd.rc:$(TARGET_COPY_OUT_ODM)/etc/ueventd.rc \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_XIG05.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_XIG05.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_caiwei.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_caiwei.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_cupid.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_cupid.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_diting.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_diting.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_ditingp.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ditingp.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_garnet.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_garnet.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_garnetp.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_garnetp.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_ingres.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ingres.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_liuqin.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_liuqin.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_marble.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_marble.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_marblein.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_marblein.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_mayfly.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_mayfly.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_mondrian.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_mondrian.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_thor.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_thor.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_unicorn.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_unicorn.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_yudi.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_yudi.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_zeus.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_zeus.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_ziyi.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ziyi.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_ziyigl.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ziyigl.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_ziyiin.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_ziyiin.xml \
-    vendor/xiaomi/garnet/proprietary/odm/etc/vintf/manifest_zizhan.xml:$(TARGET_COPY_OUT_ODM)/etc/vintf/manifest_zizhan.xml \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
     vendor/xiaomi/garnet/proprietary/system_ext/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/vendor.qti.hardware.qccsyshal@1.2-service.rc \
@@ -1080,12 +1059,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/garnet/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/usecaseKvManager.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usecaseKvManager.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vehicle_display_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vehicle_display_audio_policy_configuration.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/vintf/manifest_cape.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_cape.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/vintf/manifest_diwali.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_diwali.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/vintf/manifest_parrot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_parrot.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/vintf/manifest_ravelin.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_ravelin.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/vintf/manifest_taro.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_taro.xml \
-    vendor/xiaomi/garnet/proprietary/vendor/etc/vintf/manifest_ukee.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest_ukee.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/vmmgr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/vmmgr.conf \
     vendor/xiaomi/garnet/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/xiaomi/garnet/proprietary/vendor/etc/wifi/adrastea/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/adrastea/WCNSS_qcom_cfg.ini \
